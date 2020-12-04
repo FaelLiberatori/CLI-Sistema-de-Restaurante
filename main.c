@@ -1,13 +1,6 @@
-// Trabalho do Restaurante de LP1
-
-// Universidade do Estado do Rio de Janeiro
-// Aluno: Rafael Pereira Liberatori
-// Prof. Rubens Luiz Cirino
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include <locale.h>
 #include "pratos.h"
 #include "garcons.h"
 #include "pedidos.h"
@@ -35,8 +28,6 @@ int main()
     struct pratosNo *pratos = NULL;
     char diretorioGarcons[] = "./garcons.bin";
     char diretorioPratos[] = "./pratos.bin";
-
-    setlocale(LC_ALL, "Portuguese");
 
     // Se não existir arquivo ou ele for vazio, carrega alguns garções para facilitar
     if (carregaGarcons(&garcons, diretorioGarcons) == 0)
@@ -117,11 +108,6 @@ char *tratarInputString (char input[20])
     strcpy(input, aux);
 
     return input;
-}
-
-void consultarMesa()
-{
-
 }
 
 void listaMesa(struct mesasNo **mesas, struct garconsNo **garcons, struct pratosNo **pratos)
