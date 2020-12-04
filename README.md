@@ -17,4 +17,4 @@ Note que este sistema é recomendado para fins acadêmicos somente. Devido as li
 - Gerar uma pseudo-nota fiscal, contendo todos os itens comprados, suas quantidades e valores, o valor total da compra e o garçom responsável.
 
 Note que cada mesa tem sua fila individual de pedidos e é associada com um garçom.
-Casa pedido salvo na mesa contém a quantidade comprada do item e seu respectivo preço.
+Cada pedido salvo na mesa contém a quantidade comprada do item e seu respectivo preço.
