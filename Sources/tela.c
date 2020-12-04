@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include <locale.h>
 #include "tela.h"
 #include "mesas.h"
 #include "garcons.h"
@@ -122,7 +121,6 @@ void imprimirTela (char tituloTela[], char telaInfo[], char tituloMenu[], char m
     strcat (tela, inputInfo);
 
     limparTela();
-    setlocale(LC_ALL, "Portuguese");
     fputs (tela, stdout);
 }
 
