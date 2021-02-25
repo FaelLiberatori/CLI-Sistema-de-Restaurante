@@ -1,4 +1,6 @@
 # CLI-Sistema-de-Restaurante
+![captura de tela animada](animated_screenshot.gif)
+
 Este é um simples sistema de restaurante em CLI escrito em C.
 
 # Sobre
